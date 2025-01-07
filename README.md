@@ -1,5 +1,10 @@
 # Macrostrat API V3
 
+**Archived** This repository is no longer maintained. As of Jan 7, 2025, the Macrostrat API v3 is now
+part of Macrostrat's [core monorepo](https://github.com/UW-Macrostrat/macrostrat/tree/main/services/api-v3).
+The history of this repository was transferred up to commit [`f4fcd6bc`](https://github.com/UW-Macrostrat/api-v3/commit/f4fcd6bc888e6880eabd46aaca61045b261ce9cc). This API has tight coupling with the editing
+functionality of the Macrostrat core, so keeping it together will minimize the need for coordinated code changes.
+
 ## Overview
 
 This is a Fastapi application interfacing with a postgres database. It is designed to be deployed behind
